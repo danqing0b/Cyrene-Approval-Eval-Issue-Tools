@@ -1,0 +1,11 @@
+# Go build and test outputs
+/bin/
+/cyrene-tools
+/cyrene-tools.exe
+*.test
+/coverage.out
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example

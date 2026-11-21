@@ -1,0 +1,10 @@
+{
+  "kind": "pipelines.patch",
+  "workspaceId": "local",
+  "pipelineId": "instruction-tuning",
+  "target": {"kind": "pipeline", "id": "instruction-tuning"},
+  "expectedRevision": 7,
+  "before": {"revision": 7, "params": {"training": {"epochs": 2, "method": "lora"}}},
+  "after": {"revision": 8, "params": {"training": {"epochs": 3, "method": "lora"}}},
+  "useAI": false
+}
